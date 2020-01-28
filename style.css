@@ -1,0 +1,22 @@
+/** Font **/
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+/** Commons **/
+body {
+    font-family: 'Alata', sans-serif;
+}
+/** Button **/
+.register {
+    margin: 20px auto;
+    display: block;
+}
+/** inputs **/
+.inputs {
+    margin-bottom: 4px;  
+}
+/** Modal **/
+.breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+}
+.breadcrumb > .active {
+    color: #007bff;
+}
